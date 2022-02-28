@@ -24,21 +24,25 @@ const date = new Date();
  document.getElementById("Birth-day").innerHTML = birthday;*/
   
  //coment in the code above to see the effect UTC
-const  Localdate = new Date();
+/*const  Localdate = new Date();
 
 const date = Localdate.toUTCString();
 document.getElementById('date').innerHTML = date;
 
-//TASK 3
+//TASK 3*/
 
  
 
 answer = prompt('Please tell me what is your favorite colour?');
-  if(answer.includes(answer.toLowerCase())=confirm) {
-    arrowExp6 = () => {
-      /*let newcolor = (answer);*/
-    document.querySelector('body').style.color;
-      }
+  if(answer.includes(answer.toLowerCase())) {
 
-    }
+    Stylebody = () => {
+      /*let newcolor = (answer);*/
+    let element=document.querySelector('body');
+    element.style.background=answer;
+
+}
+  }
+  window.addEventListener("click", Stylebody());
+  
 
